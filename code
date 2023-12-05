@@ -12,7 +12,7 @@ html_content = response.content
 # Parse the HTML content using BeautifulSoup
 soup = BeautifulSoup(html_content, "html.parser")
 
-# Find all the news article elements on the page
+# Find here all the news article elements on the page
 articles = soup.find_all("article")
 
 # Set up a connection to your MySQL database
