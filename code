@@ -5,7 +5,7 @@ import mysql.connector
 # Define the URL of the Yahoo.com page to scrape
 url = "https://www.yahoo.com/news/"
 
-# Send a GET request to the URL and get the HTML content
+# Send a GET request to the URL 1 and get the HTML content
 response = requests.get(url)
 html_content = response.content
 
